@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css" class="rel">
+    <link rel="stylesheet" href="../style/style.css" />
+</head>
+<body>
+    <!-- créer un formulaire de connexion de l'utilisateur -->
+    <div class="row d-flex justify-content-center align-items-center" id="formulaire-de-connexion">
+        <div class="col-md-4 bg-light d-flex justify-content-center">
+    <form action="index.php" method="post">
+        <div class="form-group">
+            <label for="email">Veuillez saisir votre email</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary"><i class="bi-github" role="img" aria-label="GitHub"></i>| connecter</button>
+    </div>
+    </div>
+</body>
+</html>
